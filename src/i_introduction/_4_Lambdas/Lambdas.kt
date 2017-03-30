@@ -24,7 +24,7 @@ fun todoTask4(collection: Collection<Int>): Nothing = TODO(
 fun task4(collection: Collection<Int>): Boolean{
     return collection.any {
         it: Int ->
-        return it % 42 == 0
+        it % 42 == 0
     }
 }
 
